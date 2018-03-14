@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Divisão de despesas</string>
+    <string name="total">Valor total em R$:</string>
+    <string name="reais">R$</string>
+    <string name="pessoas">Quantidade de pessoas:</string>
+    <string name="dividido">Cada um deve pagar:</string>
+    <string name="digite">Insira um valor</string>
+</resources>

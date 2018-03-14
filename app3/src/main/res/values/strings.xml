@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">app3</string>
+
+    <string-array name="gruposCopa">
+        <item>A</item>
+        <item>B</item>
+    </string-array>
+</resources>

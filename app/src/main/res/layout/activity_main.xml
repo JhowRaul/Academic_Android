@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.opet.academic_android.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/total"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:padding="5dp" />
+
+    <EditText
+        android:id="@+id/editTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/digite"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/pessoas"
+        android:textSize="25sp"
+        android:gravity="center" />
+
+    <EditText
+        android:id="@+id/editPessoas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/digite"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="25sp" />
+
+    <CheckBox
+        android:id="@+id/checkboxAcresc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Acrescentar 10%"
+        android:layout_marginTop="20dp"
+        android:textSize="25sp"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/buttonClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Calcular"
+        android:textSize="20dp"
+        android:onClick="click" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/dividido"
+        android:textSize="25sp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/editResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:gravity="center" />
+
+</LinearLayout>
