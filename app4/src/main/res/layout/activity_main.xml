@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.app4.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Criar projeto"
+        android:textSize="25dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nomeDoProjeto"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/textNomeDoProjetoInput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/insiraNome"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dataInicio"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textDataInicioInput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint=" __/__/____"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dataEntrega"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textDataEntregaInput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint=" __/__/____"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/checkBoxFinalizadoInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:hint="@string/checkboxFinalizado" />
+
+    <Button
+        android:id="@+id/buttonCriar"
+        android:onClick="salvar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Salvar" />
+
+    <Button
+        android:id="@+id/buttonListar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="listar"
+        android:text="Listar Projetos" />
+
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">app4</string>
+    <string name="nomeDoProjeto">Nome do projeto:&#160;</string>
+    <string name="dataInicio">Data de início:&#160;</string>
+    <string name="dataEntrega">Data de entrega:&#160;</string>
+    <string name="checkboxFinalizado">Finalizado</string>
+    <string name="insiraNome">Insira o nome</string>
+</resources>
