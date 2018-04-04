@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">app5</string>
+    <string name="app_title">Contatos</string>
+    <string name="insert">Novo</string>
+    <string name="list">Listar</string>
+    <string name="exit">Sair</string>
+</resources>
