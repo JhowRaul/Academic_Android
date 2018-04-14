@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Academic_Android_2018.iml" filepath="$PROJECT_DIR$/Academic_Android_2018.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Academic_Android_2018.iml" filepath="$PROJECT_DIR$/.idea/Academic_Android_2018.iml" />
       <module fileurl="file://C:\AndroidStudioProjects\Academic_Android_2018\Academic_Android_2018.iml" filepath="C:\AndroidStudioProjects\Academic_Android_2018\Academic_Android_2018.iml" />
       <module fileurl="file://$PROJECT_DIR$/AppDespesasAndroid/AppDespesasAndroid.iml" filepath="$PROJECT_DIR$/AppDespesasAndroid/AppDespesasAndroid.iml" />
       <module fileurl="file://C:\AndroidStudioProjects\Academic_Android_2018\AppDespesasAndroid\AppDespesasAndroid.iml" filepath="C:\AndroidStudioProjects\Academic_Android_2018\AppDespesasAndroid\AppDespesasAndroid.iml" />
@@ -19,6 +19,8 @@
       <module fileurl="file://$PROJECT_DIR$/app4/app4.iml" filepath="$PROJECT_DIR$/app4/app4.iml" />
       <module fileurl="file://C:\AndroidStudioProjects\Academic_Android_2018\app4\app4.iml" filepath="C:\AndroidStudioProjects\Academic_Android_2018\app4\app4.iml" />
       <module fileurl="file://$PROJECT_DIR$/app5/app5.iml" filepath="$PROJECT_DIR$/app5/app5.iml" />
+      <module fileurl="file://C:\AndroidStudioProjects\Academic_Android_2018\app5\app5.iml" filepath="C:\AndroidStudioProjects\Academic_Android_2018\app5\app5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/udemyconversormoedas/udemyconversormoedas.iml" filepath="$PROJECT_DIR$/udemyconversormoedas/udemyconversormoedas.iml" />
     </modules>
   </component>
 </project>
