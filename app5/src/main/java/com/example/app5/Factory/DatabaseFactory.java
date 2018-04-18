@@ -26,15 +26,15 @@ public class DatabaseFactory extends SQLiteOpenHelper {
         // CREATE TABLE CONTATO ( _ID INTEGER PRIMARY KEY AUTOINCREMENT, NOME TEXT, TELEFONE TEXT, CELULAR TEXT, CONHECIDODE TEXT);
         String sql = "CREATE TABLE " + BancoUtil.TABELA_CONTATO + "("
                 + BancoUtil.ID_CONTATO + " integer primary key autoincrement,"
-                + BancoUtil.NOME + " text"
-                + BancoUtil.CONHECIDO_DE + " text"
+                + BancoUtil.NOME_CONTATO + " text"
+                + BancoUtil.CONHECIDO_DE_CONTATO + " text"
                 + ")";
         db.execSQL(sql);
 
         sql = "CREATE TABLE " +BancoUtil.TABELA_TELEFONE + "("
                 + BancoUtil.ID_TELEFONE + " integer primary key autoincrement,"
-                + BancoUtil.TIPO + " text"
-                + BancoUtil.NUMERO + " text"
+                + BancoUtil.TIPO_TELEFONE + " text"
+                + BancoUtil.NUMERO_TELEFONE + " text"
                 + BancoUtil.TELEFONE_USUARIO + " long"
                 + " FOREIGN KEY (" + BancoUtil.TELEFONE_USUARIO + ") REFERENCES " + BancoUtil.TABELA_CONTATO + "(" + BancoUtil.ID_CONTATO + ")"
                 + ")";

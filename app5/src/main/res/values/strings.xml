@@ -4,4 +4,8 @@
     <string name="insert">Novo</string>
     <string name="list">Listar</string>
     <string name="exit">Sair</string>
+
+    <string name="name">Nome:</string>
+    <string name="know_from">De onde você o conhece:</string>
+    <string name="save">SALVAR</string>
 </resources>

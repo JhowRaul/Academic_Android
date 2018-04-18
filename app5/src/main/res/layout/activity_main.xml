@@ -30,6 +30,7 @@
             android:layout_weight="0.5">
 
             <Button
+                android:onClick="carregaItemMenu"
                 android:id="@+id/buttonInserir"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -44,6 +45,7 @@
             android:layout_weight="0.5">
 
             <Button
+                android:onClick="carregaItemMenu"
                 android:id="@+id/buttonListar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

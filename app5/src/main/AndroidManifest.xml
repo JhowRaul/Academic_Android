@@ -23,7 +23,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Activity.ListaActivity"></activity>
+        <activity android:name=".Activity.ListaActivity" />
+        <activity android:name=".Activity.CadastrarContatoActivity" />
+        <activity android:name=".Activity.CadastrarTelefoneActivity"></activity>
     </application>
 
 </manifest>
