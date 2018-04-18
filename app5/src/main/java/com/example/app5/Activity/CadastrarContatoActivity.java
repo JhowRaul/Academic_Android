@@ -31,6 +31,9 @@ public class CadastrarContatoActivity extends Activity {
         String nome = editNome.getText().toString();
         String conheceDe = editConheceDe.getText().toString();
 
+        contato.setNome(nome);
+        contato.setConhecidoDe(conheceDe);
+
         ContatoDAO contatoDAO = new ContatoDAO(this);
         long result = contatoDAO.insereDados(contato);
         if(result > 0) {

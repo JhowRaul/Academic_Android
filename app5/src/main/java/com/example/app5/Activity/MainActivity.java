@@ -22,10 +22,7 @@ public class MainActivity extends Activity {
     public void carregaItemMenu(View v) {
         switch (v.getId()) {
             case R.id.buttonInserir:
-                carregarIntent(NovoActivity.class);
-                break;
-            case R.id.buttonListar:
-                carregarIntent(ListaActivity.class);
+                carregarIntent(CadastrarContatoActivity.class);
                 break;
         }
     }
