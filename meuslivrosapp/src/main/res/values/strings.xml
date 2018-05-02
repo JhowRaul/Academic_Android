@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Meus Livros App</string>
+
+    <string-array name="generos">
+        <item>Ação</item>
+        <item>Romance</item>
+        <item>Comédia</item>
+        <item>Ficção</item>
+        <item>Medieval</item>
+        <item>HQ</item>
+        <item>Mangá</item>
+        <item>Terror</item>
+    </string-array>
+
+    <string-array name="options">
+        <item>Atualizar</item>
+        <item>Remover</item>
+    </string-array>
+
+    <string name="dialog_message">Tem certeza que deseja remover este livro do sistema?</string>
+    <string name="cancel">Cancelar</string>
+    <string name="dialog_title">Remover Livro.</string>
+</resources>
